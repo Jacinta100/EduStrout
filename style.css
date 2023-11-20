@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.max_width {
+    width: 100%;
+    max-width: 85%;
+    margin: 0px auto;
+}
+:root{
+    --background-color:#2a2a2a; 
+    --Second-bg-color:#202020;
+    --text-color:#333;
+    --secondtext-color:#fff;
+    --line-height:22px:
+    
+  }
+.header {
+    width: 100%;
+    height: 100vh;
+    background:  url(./assets/Strout\ 1.jpg);
+    background-position: right top;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+ 
+.header-navs {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 145px;
+    padding-top: 10px;
+    cursor: pointer;
+    color: var(--text-color);
+}
+.header-navs-logo {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px; 
+    letter-spacing: 0.1px;
+}
+.header-navs-links-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    list-style: none;
+    text-decoration: none;
+    /* position: fixed; */
+}
+.header-navs-links-list li {
+    margin-right: 21px;
+}
+.header-navs-links-list a {
+    text-decoration: none;
+   
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px; 
+    letter-spacing: 0.2px;
+}
+.header-navs-join a{
+    margin-left: 45px;
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px; 
+    letter-spacing: 0.2px
+}
+
+.header-navs-join-join {
+    width: 137px;
+    background-color: var(--primary-color, #921010);
+    padding: 15px 25px;
+    border-radius: 5px;
+    color: #fff !important; 
+}
+.header-navs-join-join:hover{
+    opacity: 0.8;
+}
+
+.header-welcome-text{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.header-welcome-bigtext{
+    width: 542px;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 80px; 
+    letter-spacing: 0.2px;
+    margin-bottom: 35px;
+    color: #290303;
+    
+}
+.header-welcome-secondtext{
+    width: 422px;
+    margin-bottom: 35px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px; 
+    letter-spacing: 0.2px;
+}
+.header-welcome-join a{
+    margin-right: 10px;
+    padding: 15px 40px;
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px; 
+    letter-spacing: 0.2px;
+    border-radius: 5px; 
+
+}
+.header-welcome-join-joinlink{
+    background-color: #800026;
+    color:var(--secondtext-color) !important;
+}
+.header-welcome-join-joinlink:hover{
+    opacity: 0.7 ;
+}
+.header-welcome-join-learnlink {
+    background-color: transparent;
+    border: 1px solid var(--text-color);
+}
+
+/*header section ends here*/
+
+.product {
+    background-color: var(--dark-background-color, rgba(204, 139, 0, 0.843));
+    padding: 80px 0px 80px 0px;
+    height: 100vh;
+}
+.product-section-flexone{
+    position: relative;
+}
+.product-section-flexone img{
+    width: 50%;
+    position: absolute;
+    right: 10px;
+}
+.product-section-content{
+    max-width: 45%;
+}
+.product-section-largetext {
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.product-section-shownote{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px; 
+    letter-spacing: 0.2px;
+}
+.product-section-learnmore{
+    text-decoration: none;
+}
+/* Product section ends here */
+
+.Learning{
+    background-color: var(--dark-background-color, rgba(204, 139, 0, 0.843));
+}
+.advice-section-text{
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 10px; 
+}
+.advice-section-texttwo{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px; 
+    letter-spacing: 0.2px; 
+    
+}
+.image {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-top: 20px;
+    width: 100%; 
+   
+}
+
+.image img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 15px;
+    padding-bottom: 30px;
+}
+
+.Kids-learningbrands{
+    background-color: var(--dark-background-color, rgba(204, 139, 0, 0.843));
+    padding-bottom: 50px;
+}
+
+.Kids-learningbrands-links a{
+    font-size: larger;
+    font-weight: 1000;
+    font-style: italic;
+    text-decoration: none;
+    cursor: pointer;
+    height: 100vh;
+    margin-right: 100px;
+ 
+    
+}
+.subscribe-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.subscribe-section-texttwo {
+    width: 469px;
+    text-align: center;
+}
+
+.subscribe-section-form {
+    width: 688px;
+    background: #F9F9F9;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    border: 1px solid #E6E6E6;
+}
+.subscribe-section-form input {
+    background-color: transparent;
+    padding: 15px 0px 15px 20px;
+    color: var(--second-text-color, #737373);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px; /* 200% */
+    letter-spacing: 0.2px;
+    border: none;
+    outline: none;
+}
+.subscribe-section-form button {
+    width: 117px;
+    background: var(--primary-color, #800026);
+    padding: 15px 22.5px;
+    color: var(--secondtext-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    outline: none;
+}
+.footer-wrapper p{
+    padding: 20px;
+    
+}
+.footer-details-icons {
+    display: flex;
+    justify-content: end;
+    
+}
+.footer-details-icons a{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20px;
+    width: auto;
+    height: 100px;
+}
+/* Join page */
+
+.join {
+    background:  linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/join.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.student_login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5%;
+    text-decoration: none; 
+
+}
+
+.student_login button{
+
+    background-color: #800026;
+    padding: 20px 40px;
+    color: #fff;
+    border:  solid transparent;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 10px;
+
+    
+}
+
+
+
+
